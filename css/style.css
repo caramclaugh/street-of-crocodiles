@@ -1,0 +1,53 @@
+body {
+    background: #ffffff;
+    color:rgb(0, 0, 0) 
+}
+
+section, header {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+}
+
+section, header {
+    margin-bottom: 4rem;
+
+}
+
+h1, h2, blockquote {
+      font-family: "Playfair Display", serif;
+}
+
+section, header{
+    font-family: "Noto Sans", sans-serif;;
+}
+
+header, blockquote {
+          color: #735E47;
+}
+
+strong {
+          color: #8f6d49;
+          font-size: 1.562rem;
+}
+
+header h1 {
+    font-size: 4.768rem;
+    line-height: 1;
+}
+
+header h2{
+    font-size: 1.953rem;
+    font-style:oblique
+}
+
+header p{
+    font-size: 1.562rem;
+}
+
+blockquote{
+    font-size: 1.562rem;
+    font-style: italic;
+    hanging-punctuation: first;
+    text-indent: -0.45rem;
+}
