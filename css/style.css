@@ -51,3 +51,73 @@ blockquote{
     hanging-punctuation: first;
     text-indent: -0.45rem;
 }
+
+/*-- styling hyperlinks --*/
+
+a {
+    color: #735E47;
+    text-decoration: none;
+    border-bottom: 1px dotted;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #4b341a;
+}
+
+/*-- Navigation --*/
+.responsivenav {
+    background: #859c7a;
+    padding: 10px;
+
+}
+
+
+#logo {
+    font-family: "Playfair Display", serif;
+    font-size: 1.5rem;
+    padding: 50px
+}
+
+nav{
+    display: flex;
+    padding: 1.5rem 0;
+}
+
+nav ul {
+    text-align: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    list-style-type: none;
+    padding-right: 70px;
+}
+
+nav ul li{
+    display: inline;
+    margin: 5px;
+}
+
+
+nav a{
+    border-bottom: none;
+    color:#000000;
+    padding: 10px;   
+}
+
+nav a:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+/*-- Styling the footer --*/
+
+footer {
+    background-color: #5c6b54;
+    color: #ffffff;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 4rem 0;
+}
+
+footer a {
+    color: #cee4c5
+}
